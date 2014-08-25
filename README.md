@@ -1,5 +1,3 @@
-#CS 212 Web Programming - Project 1
+# CS 212 Web Programming - Project 1
 
-A simple assignment to get familiarity with our web space at nau.edu
-
-I started creating a css framework too!
+not really anything to do... just upload a basic site to the web... i created a small [css framework](http://justinwp.github.io/cs212-p1/) instead
