@@ -3,14 +3,19 @@
 	width: 95%;
 	padding: 2px 8px;
 	margin: auto auto;
-	overflow: hidden;
 }
 
 /* grids */
 .row {
 	width: 100%;
 	display: block;
-	overflow: hidden;
+}
+
+.container:after,
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
 }
 
 .col-small-1, 
@@ -53,6 +58,8 @@
 	display: inline;
 	float: left;
 	margin: 0 1%;
+	overflow: hidden;
+
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
