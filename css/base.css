@@ -3,12 +3,14 @@
 	width: 95%;
 	padding: 2px 8px;
 	margin: auto auto;
+	overflow: hidden;
 }
 
 /* grids */
 .row {
 	width: 100%;
 	display: block;
+	overflow: hidden;
 }
 
 .col-small-1, 
