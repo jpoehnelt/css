@@ -9,7 +9,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .container {
     width: 95%;
     padding: 2px 8px;
@@ -84,12 +83,14 @@ body {
     -mox-border-radius: 4px;
     -webkit-border-radius: 4px;
     cursor: pointer;
+    margin: 3px;
 
 }
 
 .button:hover {
     background-color: #f1f1f1;
 }
+
 .button-primary {
     background-color: #30a6ff;
 }
@@ -100,8 +101,8 @@ nav {
     color: #f8f8f8;
     padding: 5px 0;
     -webkit-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    1px 1px 2px 0px rgba(50, 50, 50, 0.75);
-    box-shadow:         1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.75);
 }
 
 nav .title {
@@ -109,11 +110,13 @@ nav .title {
     font-size: larger;
     margin: 0 25px 0 0;
 }
+
 nav a {
     text-decoration: none;
     color: #f8f8f8;
     margin: 0 15px 0 0;
 }
+
 nav a:hover {
     color: #d8d8d8;
 }
@@ -133,8 +136,9 @@ nav a:hover {
     padding: 0;
     margin: 0;
 }
+
 .sidebar ul li {
-    margin:0;
+    margin: 0;
     padding: 5px;
     border-bottom: 1px solid #cccccc;
 }
@@ -152,9 +156,11 @@ nav a:hover {
 label {
     font-weight: bolder;
 }
+
 .form-horizontal .input-group label {
     text-align: right;
 }
+
 .input {
     background: white;
     border: 1px solid #cccccc;
@@ -166,9 +172,11 @@ label {
     -moz-box-sizing: border-box; /* Firefox, other Gecko */
     box-sizing: border-box;
 }
+
 .input-group {
     display: block;
 }
+
 .input-large, .button-large {
     padding: 3px 6px;
     font-size: 120%;
@@ -193,9 +201,10 @@ label {
 /* Media Queries */
 /* phones and some small tablets */
 @media only screen and (min-width: 450px) {
-     *[class|='col'] label {
+    *[class|='col'] label {
         text-align: left;
     }
+
     .col-small-1 {
         width: 6.333333% !important;
     }
@@ -351,4 +360,59 @@ small {
 .right {
     text-align: right;
     float: right;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.well {
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -mox-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    padding: 8px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 4px;
+    text-align: left;
+}
+table thead tr {
+    border-bottom: 2px solid #cccccc;
+}
+table tbody tr {
+    border-top: 1px solid #cccccc;
+}
+
+tbody tr:nth-child(odd) {
+    background: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background: #f2f2f2;
 }
